@@ -5,6 +5,6 @@ This [lftp](http://rudix.org/packages/lftp.html) script mirrors a local director
 
 Basically, I hardcoded some parameters & zuzz'd up a simple shell command:
 
-```bsh
+```shell
 lftp ftp://USERNAME:PASSWORD@HOST -e 'mirror -R --verbose --use-pget-n=8 -c 'local_path' 'remote_path''
 ```
