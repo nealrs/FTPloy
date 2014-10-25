@@ -12,7 +12,7 @@ COL_BLUE=$ESC_SEQ"34;01m"
 COL_MAGENTA=$ESC_SEQ"35;01m"
 
 echo ""
-echo -e "$COL_MAGENTA >> Git@Me Deploy $COL_RESET"
+echo -e "$COL_MAGENTA >> FTPloy! $COL_RESET"
 echo ""
 echo -e "$COL_BLUE >> Deploying via lftp: $COL_RESET"
 echo ""
